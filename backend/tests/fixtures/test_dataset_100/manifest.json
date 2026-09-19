@@ -1,0 +1,902 @@
+[
+  {
+    "id": "GEN_001",
+    "filename": "general_doc_001.png",
+    "relative_path": "general_doc\\general_doc_001.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_002",
+    "filename": "general_doc_002.png",
+    "relative_path": "general_doc\\general_doc_002.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_003",
+    "filename": "general_doc_003.png",
+    "relative_path": "general_doc\\general_doc_003.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_004",
+    "filename": "general_doc_004.png",
+    "relative_path": "general_doc\\general_doc_004.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_005",
+    "filename": "general_doc_005.png",
+    "relative_path": "general_doc\\general_doc_005.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_006",
+    "filename": "general_doc_006.png",
+    "relative_path": "general_doc\\general_doc_006.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_007",
+    "filename": "general_doc_007.png",
+    "relative_path": "general_doc\\general_doc_007.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_008",
+    "filename": "general_doc_008.png",
+    "relative_path": "general_doc\\general_doc_008.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_009",
+    "filename": "general_doc_009.png",
+    "relative_path": "general_doc\\general_doc_009.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_010",
+    "filename": "general_doc_010.png",
+    "relative_path": "general_doc\\general_doc_010.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_011",
+    "filename": "general_doc_011.png",
+    "relative_path": "general_doc\\general_doc_011.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_012",
+    "filename": "general_doc_012.png",
+    "relative_path": "general_doc\\general_doc_012.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_013",
+    "filename": "general_doc_013.png",
+    "relative_path": "general_doc\\general_doc_013.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_014",
+    "filename": "general_doc_014.png",
+    "relative_path": "general_doc\\general_doc_014.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_015",
+    "filename": "general_doc_015.png",
+    "relative_path": "general_doc\\general_doc_015.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_016",
+    "filename": "general_doc_016.png",
+    "relative_path": "general_doc\\general_doc_016.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_017",
+    "filename": "general_doc_017.png",
+    "relative_path": "general_doc\\general_doc_017.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_018",
+    "filename": "general_doc_018.png",
+    "relative_path": "general_doc\\general_doc_018.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_019",
+    "filename": "general_doc_019.png",
+    "relative_path": "general_doc\\general_doc_019.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_020",
+    "filename": "general_doc_020.png",
+    "relative_path": "general_doc\\general_doc_020.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_021",
+    "filename": "general_doc_021.png",
+    "relative_path": "general_doc\\general_doc_021.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_022",
+    "filename": "general_doc_022.png",
+    "relative_path": "general_doc\\general_doc_022.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_023",
+    "filename": "general_doc_023.png",
+    "relative_path": "general_doc\\general_doc_023.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_024",
+    "filename": "general_doc_024.png",
+    "relative_path": "general_doc\\general_doc_024.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_025",
+    "filename": "general_doc_025.png",
+    "relative_path": "general_doc\\general_doc_025.png",
+    "pipeline": "general",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Sharp, high-resolution original scanned document with clear text"
+  },
+  {
+    "id": "GEN_026",
+    "filename": "general_doc_026.png",
+    "relative_path": "general_doc\\general_doc_026.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe out-of-focus defocus blur"
+  },
+  {
+    "id": "GEN_027",
+    "filename": "general_doc_027.png",
+    "relative_path": "general_doc\\general_doc_027.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Heavy linear motion camera blur"
+  },
+  {
+    "id": "GEN_028",
+    "filename": "general_doc_028.png",
+    "relative_path": "general_doc\\general_doc_028.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe out-of-focus defocus blur"
+  },
+  {
+    "id": "GEN_029",
+    "filename": "general_doc_029.png",
+    "relative_path": "general_doc\\general_doc_029.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Heavy linear motion camera blur"
+  },
+  {
+    "id": "GEN_030",
+    "filename": "general_doc_030.png",
+    "relative_path": "general_doc\\general_doc_030.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe out-of-focus defocus blur"
+  },
+  {
+    "id": "GEN_031",
+    "filename": "general_doc_031.png",
+    "relative_path": "general_doc\\general_doc_031.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Heavy linear motion camera blur"
+  },
+  {
+    "id": "GEN_032",
+    "filename": "general_doc_032.png",
+    "relative_path": "general_doc\\general_doc_032.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe out-of-focus defocus blur"
+  },
+  {
+    "id": "GEN_033",
+    "filename": "general_doc_033.png",
+    "relative_path": "general_doc\\general_doc_033.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Heavy linear motion camera blur"
+  },
+  {
+    "id": "GEN_034",
+    "filename": "general_doc_034.png",
+    "relative_path": "general_doc\\general_doc_034.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe out-of-focus defocus blur"
+  },
+  {
+    "id": "GEN_035",
+    "filename": "general_doc_035.png",
+    "relative_path": "general_doc\\general_doc_035.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Heavy linear motion camera blur"
+  },
+  {
+    "id": "GEN_036",
+    "filename": "general_doc_036.png",
+    "relative_path": "general_doc\\general_doc_036.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe out-of-focus defocus blur"
+  },
+  {
+    "id": "GEN_037",
+    "filename": "general_doc_037.png",
+    "relative_path": "general_doc\\general_doc_037.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Heavy linear motion camera blur"
+  },
+  {
+    "id": "GEN_038",
+    "filename": "general_doc_038.png",
+    "relative_path": "general_doc\\general_doc_038.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe out-of-focus defocus blur"
+  },
+  {
+    "id": "GEN_039",
+    "filename": "general_doc_039.png",
+    "relative_path": "general_doc\\general_doc_039.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Heavy linear motion camera blur"
+  },
+  {
+    "id": "GEN_040",
+    "filename": "general_doc_040.png",
+    "relative_path": "general_doc\\general_doc_040.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe out-of-focus defocus blur"
+  },
+  {
+    "id": "GEN_041",
+    "filename": "general_doc_041.png",
+    "relative_path": "general_doc\\general_doc_041.png",
+    "pipeline": "general",
+    "expected_status": "BORDERLINE",
+    "category": "borderline",
+    "description": "Mild optical softness near borderline threshold"
+  },
+  {
+    "id": "GEN_042",
+    "filename": "general_doc_042.png",
+    "relative_path": "general_doc\\general_doc_042.png",
+    "pipeline": "general",
+    "expected_status": "BORDERLINE",
+    "category": "borderline",
+    "description": "Mild optical softness near borderline threshold"
+  },
+  {
+    "id": "GEN_043",
+    "filename": "general_doc_043.png",
+    "relative_path": "general_doc\\general_doc_043.png",
+    "pipeline": "general",
+    "expected_status": "BORDERLINE",
+    "category": "borderline",
+    "description": "Mild optical softness near borderline threshold"
+  },
+  {
+    "id": "GEN_044",
+    "filename": "general_doc_044.png",
+    "relative_path": "general_doc\\general_doc_044.png",
+    "pipeline": "general",
+    "expected_status": "BORDERLINE",
+    "category": "borderline",
+    "description": "Mild optical softness near borderline threshold"
+  },
+  {
+    "id": "GEN_045",
+    "filename": "general_doc_045.png",
+    "relative_path": "general_doc\\general_doc_045.png",
+    "pipeline": "general",
+    "expected_status": "BORDERLINE",
+    "category": "borderline",
+    "description": "Mild optical softness near borderline threshold"
+  },
+  {
+    "id": "GEN_046",
+    "filename": "general_doc_046.png",
+    "relative_path": "general_doc\\general_doc_046.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "sanity_failure",
+    "description": "Resolution too low (long edge < 1500px)"
+  },
+  {
+    "id": "GEN_047",
+    "filename": "general_doc_047.png",
+    "relative_path": "general_doc\\general_doc_047.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "sanity_failure",
+    "description": "Resolution too low (long edge < 1500px)"
+  },
+  {
+    "id": "GEN_048",
+    "filename": "general_doc_048.png",
+    "relative_path": "general_doc\\general_doc_048.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "sanity_failure",
+    "description": "Brightness too low (< 40 mean luma)"
+  },
+  {
+    "id": "GEN_049",
+    "filename": "general_doc_049.png",
+    "relative_path": "general_doc\\general_doc_049.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "sanity_failure",
+    "description": "Brightness too high (> 220 mean luma)"
+  },
+  {
+    "id": "GEN_050",
+    "filename": "general_doc_050.png",
+    "relative_path": "general_doc\\general_doc_050.png",
+    "pipeline": "general",
+    "expected_status": "REJECT",
+    "category": "sanity_failure",
+    "description": "Brightness too high (> 220 mean luma)"
+  },
+  {
+    "id": "ID_001",
+    "filename": "id_passport_001.png",
+    "relative_path": "id_passport\\id_passport_001.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_002",
+    "filename": "id_passport_002.png",
+    "relative_path": "id_passport\\id_passport_002.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_003",
+    "filename": "id_passport_003.png",
+    "relative_path": "id_passport\\id_passport_003.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_004",
+    "filename": "id_passport_004.png",
+    "relative_path": "id_passport\\id_passport_004.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_005",
+    "filename": "id_passport_005.png",
+    "relative_path": "id_passport\\id_passport_005.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_006",
+    "filename": "id_passport_006.png",
+    "relative_path": "id_passport\\id_passport_006.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_007",
+    "filename": "id_passport_007.png",
+    "relative_path": "id_passport\\id_passport_007.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_008",
+    "filename": "id_passport_008.png",
+    "relative_path": "id_passport\\id_passport_008.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_009",
+    "filename": "id_passport_009.png",
+    "relative_path": "id_passport\\id_passport_009.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_010",
+    "filename": "id_passport_010.png",
+    "relative_path": "id_passport\\id_passport_010.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_011",
+    "filename": "id_passport_011.png",
+    "relative_path": "id_passport\\id_passport_011.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_012",
+    "filename": "id_passport_012.png",
+    "relative_path": "id_passport\\id_passport_012.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_013",
+    "filename": "id_passport_013.png",
+    "relative_path": "id_passport\\id_passport_013.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_014",
+    "filename": "id_passport_014.png",
+    "relative_path": "id_passport\\id_passport_014.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_015",
+    "filename": "id_passport_015.png",
+    "relative_path": "id_passport\\id_passport_015.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_016",
+    "filename": "id_passport_016.png",
+    "relative_path": "id_passport\\id_passport_016.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_017",
+    "filename": "id_passport_017.png",
+    "relative_path": "id_passport\\id_passport_017.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_018",
+    "filename": "id_passport_018.png",
+    "relative_path": "id_passport\\id_passport_018.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_019",
+    "filename": "id_passport_019.png",
+    "relative_path": "id_passport\\id_passport_019.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_020",
+    "filename": "id_passport_020.png",
+    "relative_path": "id_passport\\id_passport_020.png",
+    "pipeline": "id_passport",
+    "expected_status": "PASS",
+    "category": "sharp",
+    "description": "Crisp, fully legible ID card with clear MRZ and photo portrait"
+  },
+  {
+    "id": "ID_021",
+    "filename": "id_passport_021.png",
+    "relative_path": "id_passport\\id_passport_021.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Hand-shake motion blur across ID MRZ zone"
+  },
+  {
+    "id": "ID_022",
+    "filename": "id_passport_022.png",
+    "relative_path": "id_passport\\id_passport_022.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe camera defocus blur on ID card"
+  },
+  {
+    "id": "ID_023",
+    "filename": "id_passport_023.png",
+    "relative_path": "id_passport\\id_passport_023.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Hand-shake motion blur across ID MRZ zone"
+  },
+  {
+    "id": "ID_024",
+    "filename": "id_passport_024.png",
+    "relative_path": "id_passport\\id_passport_024.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe camera defocus blur on ID card"
+  },
+  {
+    "id": "ID_025",
+    "filename": "id_passport_025.png",
+    "relative_path": "id_passport\\id_passport_025.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Hand-shake motion blur across ID MRZ zone"
+  },
+  {
+    "id": "ID_026",
+    "filename": "id_passport_026.png",
+    "relative_path": "id_passport\\id_passport_026.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe camera defocus blur on ID card"
+  },
+  {
+    "id": "ID_027",
+    "filename": "id_passport_027.png",
+    "relative_path": "id_passport\\id_passport_027.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Hand-shake motion blur across ID MRZ zone"
+  },
+  {
+    "id": "ID_028",
+    "filename": "id_passport_028.png",
+    "relative_path": "id_passport\\id_passport_028.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe camera defocus blur on ID card"
+  },
+  {
+    "id": "ID_029",
+    "filename": "id_passport_029.png",
+    "relative_path": "id_passport\\id_passport_029.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Hand-shake motion blur across ID MRZ zone"
+  },
+  {
+    "id": "ID_030",
+    "filename": "id_passport_030.png",
+    "relative_path": "id_passport\\id_passport_030.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe camera defocus blur on ID card"
+  },
+  {
+    "id": "ID_031",
+    "filename": "id_passport_031.png",
+    "relative_path": "id_passport\\id_passport_031.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Hand-shake motion blur across ID MRZ zone"
+  },
+  {
+    "id": "ID_032",
+    "filename": "id_passport_032.png",
+    "relative_path": "id_passport\\id_passport_032.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe camera defocus blur on ID card"
+  },
+  {
+    "id": "ID_033",
+    "filename": "id_passport_033.png",
+    "relative_path": "id_passport\\id_passport_033.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Hand-shake motion blur across ID MRZ zone"
+  },
+  {
+    "id": "ID_034",
+    "filename": "id_passport_034.png",
+    "relative_path": "id_passport\\id_passport_034.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Severe camera defocus blur on ID card"
+  },
+  {
+    "id": "ID_035",
+    "filename": "id_passport_035.png",
+    "relative_path": "id_passport\\id_passport_035.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "blurry",
+    "description": "Hand-shake motion blur across ID MRZ zone"
+  },
+  {
+    "id": "ID_036",
+    "filename": "id_passport_036.png",
+    "relative_path": "id_passport\\id_passport_036.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "glare",
+    "description": "Excessive specular flash glare on plastic laminate (>1.5% area)"
+  },
+  {
+    "id": "ID_037",
+    "filename": "id_passport_037.png",
+    "relative_path": "id_passport\\id_passport_037.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "glare",
+    "description": "Excessive specular flash glare on plastic laminate (>1.5% area)"
+  },
+  {
+    "id": "ID_038",
+    "filename": "id_passport_038.png",
+    "relative_path": "id_passport\\id_passport_038.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "glare",
+    "description": "Excessive specular flash glare on plastic laminate (>1.5% area)"
+  },
+  {
+    "id": "ID_039",
+    "filename": "id_passport_039.png",
+    "relative_path": "id_passport\\id_passport_039.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "glare",
+    "description": "Excessive specular flash glare on plastic laminate (>1.5% area)"
+  },
+  {
+    "id": "ID_040",
+    "filename": "id_passport_040.png",
+    "relative_path": "id_passport\\id_passport_040.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "glare",
+    "description": "Excessive specular flash glare on plastic laminate (>1.5% area)"
+  },
+  {
+    "id": "ID_041",
+    "filename": "id_passport_041.png",
+    "relative_path": "id_passport\\id_passport_041.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "glare",
+    "description": "Excessive specular flash glare on plastic laminate (>1.5% area)"
+  },
+  {
+    "id": "ID_042",
+    "filename": "id_passport_042.png",
+    "relative_path": "id_passport\\id_passport_042.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "glare",
+    "description": "Excessive specular flash glare on plastic laminate (>1.5% area)"
+  },
+  {
+    "id": "ID_043",
+    "filename": "id_passport_043.png",
+    "relative_path": "id_passport\\id_passport_043.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "glare",
+    "description": "Excessive specular flash glare on plastic laminate (>1.5% area)"
+  },
+  {
+    "id": "ID_044",
+    "filename": "id_passport_044.png",
+    "relative_path": "id_passport\\id_passport_044.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "glare",
+    "description": "Excessive specular flash glare on plastic laminate (>1.5% area)"
+  },
+  {
+    "id": "ID_045",
+    "filename": "id_passport_045.png",
+    "relative_path": "id_passport\\id_passport_045.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "glare",
+    "description": "Excessive specular flash glare on plastic laminate (>1.5% area)"
+  },
+  {
+    "id": "ID_046",
+    "filename": "id_passport_046.png",
+    "relative_path": "id_passport\\id_passport_046.png",
+    "pipeline": "id_passport",
+    "expected_status": "BORDERLINE",
+    "category": "borderline",
+    "description": "Borderline sharpness score requiring OCR tiebreaker"
+  },
+  {
+    "id": "ID_047",
+    "filename": "id_passport_047.png",
+    "relative_path": "id_passport\\id_passport_047.png",
+    "pipeline": "id_passport",
+    "expected_status": "BORDERLINE",
+    "category": "borderline",
+    "description": "Borderline sharpness score requiring OCR tiebreaker"
+  },
+  {
+    "id": "ID_048",
+    "filename": "id_passport_048.png",
+    "relative_path": "id_passport\\id_passport_048.png",
+    "pipeline": "id_passport",
+    "expected_status": "BORDERLINE",
+    "category": "borderline",
+    "description": "Borderline sharpness score requiring OCR tiebreaker"
+  },
+  {
+    "id": "ID_049",
+    "filename": "id_passport_049.png",
+    "relative_path": "id_passport\\id_passport_049.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "sanity_failure",
+    "description": "Resolution too low for ID (long edge < 1200px)"
+  },
+  {
+    "id": "ID_050",
+    "filename": "id_passport_050.png",
+    "relative_path": "id_passport\\id_passport_050.png",
+    "pipeline": "id_passport",
+    "expected_status": "REJECT",
+    "category": "sanity_failure",
+    "description": "Resolution too low for ID (long edge < 1200px)"
+  }
+]

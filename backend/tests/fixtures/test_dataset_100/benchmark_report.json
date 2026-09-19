@@ -1,0 +1,2800 @@
+{
+  "total_documents": 100,
+  "overall_accuracy_pct": 81.0,
+  "total_time_seconds": 10.08,
+  "avg_latency_ms": 100.83,
+  "confusion_matrix": {
+    "PASS": {
+      "PASS": 26,
+      "BORDERLINE": 17,
+      "REJECT": 2
+    },
+    "BORDERLINE": {
+      "PASS": 0,
+      "BORDERLINE": 8,
+      "REJECT": 0
+    },
+    "REJECT": {
+      "PASS": 0,
+      "BORDERLINE": 0,
+      "REJECT": 47
+    }
+  },
+  "category_performance": {
+    "sharp": {
+      "total": 45,
+      "correct": 26
+    },
+    "blurry": {
+      "total": 30,
+      "correct": 30
+    },
+    "borderline": {
+      "total": 8,
+      "correct": 8
+    },
+    "sanity_failure": {
+      "total": 7,
+      "correct": 7
+    },
+    "glare": {
+      "total": 10,
+      "correct": 10
+    }
+  },
+  "defect_metrics": {
+    "recall_pct": 100.0,
+    "precision_pct": 95.92,
+    "f1_pct": 97.92
+  },
+  "results": [
+    {
+      "id": "GEN_001",
+      "filename": "general_doc_001.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 125.54,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 186.83388586956522
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 123.63897590473923
+        }
+      }
+    },
+    {
+      "id": "GEN_002",
+      "filename": "general_doc_002.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 86.59,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 201.10178643724697
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 116.33065901587261
+        }
+      }
+    },
+    {
+      "id": "GEN_003",
+      "filename": "general_doc_003.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 102.82,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 203.8413740771124
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 140.86641703392291
+        }
+      }
+    },
+    {
+      "id": "GEN_004",
+      "filename": "general_doc_004.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "REJECT",
+      "is_correct": false,
+      "latency_ms": 99.64,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 209.00745334290403
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 27.651256942494328
+        }
+      }
+    },
+    {
+      "id": "GEN_005",
+      "filename": "general_doc_005.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 89.44,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.76068659127625
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 133.12336837395213
+        }
+      }
+    },
+    {
+      "id": "GEN_006",
+      "filename": "general_doc_006.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 118.63,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 205.20226620180475
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 90.53477104535145
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "GEN_007",
+      "filename": "general_doc_007.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 103.57,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.76844903609515
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 78.41105526800455
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "GEN_008",
+      "filename": "general_doc_008.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 87.79,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 201.13852748154224
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 220.92009988823133
+        }
+      }
+    },
+    {
+      "id": "GEN_009",
+      "filename": "general_doc_009.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 110.86,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.86093262920426
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 271.7298975488435
+        }
+      }
+    },
+    {
+      "id": "GEN_010",
+      "filename": "general_doc_010.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "REJECT",
+      "is_correct": false,
+      "latency_ms": 96.69,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 208.48913169099757
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 12.178234343409029
+        }
+      }
+    },
+    {
+      "id": "GEN_011",
+      "filename": "general_doc_011.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 108.45,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.1503547990156
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 152.7592724852381
+        }
+      }
+    },
+    {
+      "id": "GEN_012",
+      "filename": "general_doc_012.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 85.48,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.76827522559475
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 122.42943186902494
+        }
+      }
+    },
+    {
+      "id": "GEN_013",
+      "filename": "general_doc_013.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 108.15,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 198.7237165362438
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 263.7177831261544
+        }
+      }
+    },
+    {
+      "id": "GEN_014",
+      "filename": "general_doc_014.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 86.88,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.85800784392598
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 209.21547092686396
+        }
+      }
+    },
+    {
+      "id": "GEN_015",
+      "filename": "general_doc_015.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 100.4,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.95921142972537
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 165.43118575496888
+        }
+      }
+    },
+    {
+      "id": "GEN_016",
+      "filename": "general_doc_016.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 89.38,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.49382291666666
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 106.58019848392581
+        }
+      }
+    },
+    {
+      "id": "GEN_017",
+      "filename": "general_doc_017.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 83.65,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.50560260416665
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 106.58019848392581
+        }
+      }
+    },
+    {
+      "id": "GEN_018",
+      "filename": "general_doc_018.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 102.99,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.53898020833333
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 106.58019848392581
+        }
+      }
+    },
+    {
+      "id": "GEN_019",
+      "filename": "general_doc_019.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 96.7,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.51709114583332
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 106.58019848392581
+        }
+      }
+    },
+    {
+      "id": "GEN_020",
+      "filename": "general_doc_020.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 98.36,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.40522604166668
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 106.58019848392581
+        }
+      }
+    },
+    {
+      "id": "GEN_021",
+      "filename": "general_doc_021.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 105.81,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.49474947916667
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 106.58019848392581
+        }
+      }
+    },
+    {
+      "id": "GEN_022",
+      "filename": "general_doc_022.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 103.46,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.4306171875
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 106.58019848392581
+        }
+      }
+    },
+    {
+      "id": "GEN_023",
+      "filename": "general_doc_023.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 102.21,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.47709791666668
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 106.58019848392581
+        }
+      }
+    },
+    {
+      "id": "GEN_024",
+      "filename": "general_doc_024.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 109.59,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.49675729166665
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 106.58019848392581
+        }
+      }
+    },
+    {
+      "id": "GEN_025",
+      "filename": "general_doc_025.png",
+      "pipeline": "general",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 95.86,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.53885520833333
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 106.58019848392581
+        }
+      }
+    },
+    {
+      "id": "GEN_026",
+      "filename": "general_doc_026.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 88.39,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.43104375
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 0.5342588903477431
+        }
+      }
+    },
+    {
+      "id": "GEN_027",
+      "filename": "general_doc_027.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 87.99,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.50216979166666
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 5.865361039476185
+        }
+      }
+    },
+    {
+      "id": "GEN_028",
+      "filename": "general_doc_028.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 99.63,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.4763171875
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 0.5342588903477431
+        }
+      }
+    },
+    {
+      "id": "GEN_029",
+      "filename": "general_doc_029.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 87.72,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.51372447916665
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 5.865361039476185
+        }
+      }
+    },
+    {
+      "id": "GEN_030",
+      "filename": "general_doc_030.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 82.71,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.34967135416667
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 0.5342588903477431
+        }
+      }
+    },
+    {
+      "id": "GEN_031",
+      "filename": "general_doc_031.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 94.79,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.49852239583333
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 5.865361039476185
+        }
+      }
+    },
+    {
+      "id": "GEN_032",
+      "filename": "general_doc_032.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 95.47,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.37495208333334
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 0.5342588903477431
+        }
+      }
+    },
+    {
+      "id": "GEN_033",
+      "filename": "general_doc_033.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 94.09,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.4808703125
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 5.865361039476185
+        }
+      }
+    },
+    {
+      "id": "GEN_034",
+      "filename": "general_doc_034.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 100.58,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.4409296875
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 0.5342588903477431
+        }
+      }
+    },
+    {
+      "id": "GEN_035",
+      "filename": "general_doc_035.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 104.34,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.54262604166667
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 5.865361039476185
+        }
+      }
+    },
+    {
+      "id": "GEN_036",
+      "filename": "general_doc_036.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 102.29,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.43155833333333
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 0.5342588903477431
+        }
+      }
+    },
+    {
+      "id": "GEN_037",
+      "filename": "general_doc_037.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 112.96,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.50271770833334
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 5.865361039476185
+        }
+      }
+    },
+    {
+      "id": "GEN_038",
+      "filename": "general_doc_038.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 97.8,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.47680989583333
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 0.5342588903477431
+        }
+      }
+    },
+    {
+      "id": "GEN_039",
+      "filename": "general_doc_039.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 95.48,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.514240625
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 5.865361039476185
+        }
+      }
+    },
+    {
+      "id": "GEN_040",
+      "filename": "general_doc_040.png",
+      "pipeline": "general",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 101.21,
+      "final_reason": "Image is too blurry",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.35062447916667
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 0.5342588903477431
+        }
+      }
+    },
+    {
+      "id": "GEN_041",
+      "filename": "general_doc_041.png",
+      "pipeline": "general",
+      "category": "borderline",
+      "expected_status": "BORDERLINE",
+      "predicted_status": "BORDERLINE",
+      "is_correct": true,
+      "latency_ms": 115.24,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.502484375
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 44.33417088815036
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "GEN_042",
+      "filename": "general_doc_042.png",
+      "pipeline": "general",
+      "category": "borderline",
+      "expected_status": "BORDERLINE",
+      "predicted_status": "BORDERLINE",
+      "is_correct": true,
+      "latency_ms": 115.5,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.4384421875
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 44.33417088815036
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "GEN_043",
+      "filename": "general_doc_043.png",
+      "pipeline": "general",
+      "category": "borderline",
+      "expected_status": "BORDERLINE",
+      "predicted_status": "BORDERLINE",
+      "is_correct": true,
+      "latency_ms": 96.39,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.484771875
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 44.33417088815036
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "GEN_044",
+      "filename": "general_doc_044.png",
+      "pipeline": "general",
+      "category": "borderline",
+      "expected_status": "BORDERLINE",
+      "predicted_status": "BORDERLINE",
+      "is_correct": true,
+      "latency_ms": 117.59,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.504478125
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 44.33417088815036
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "GEN_045",
+      "filename": "general_doc_045.png",
+      "pipeline": "general",
+      "category": "borderline",
+      "expected_status": "BORDERLINE",
+      "predicted_status": "BORDERLINE",
+      "is_correct": true,
+      "latency_ms": 101.24,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 204.54656666666668
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 44.33417088815036
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "GEN_046",
+      "filename": "general_doc_046.png",
+      "pipeline": "general",
+      "category": "sanity_failure",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 31.63,
+      "final_reason": "Resolution too low: 800px",
+      "stages": {
+        "sanity": {
+          "status": "fail",
+          "resolution_px": 800
+        }
+      }
+    },
+    {
+      "id": "GEN_047",
+      "filename": "general_doc_047.png",
+      "pipeline": "general",
+      "category": "sanity_failure",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 34.14,
+      "final_reason": "Resolution too low: 800px",
+      "stages": {
+        "sanity": {
+          "status": "fail",
+          "resolution_px": 800
+        }
+      }
+    },
+    {
+      "id": "GEN_048",
+      "filename": "general_doc_048.png",
+      "pipeline": "general",
+      "category": "sanity_failure",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 68.76,
+      "final_reason": "Brightness out of range: 24.27",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 24.266524479166666
+        }
+      }
+    },
+    {
+      "id": "GEN_049",
+      "filename": "general_doc_049.png",
+      "pipeline": "general",
+      "category": "sanity_failure",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 49.32,
+      "final_reason": "Brightness out of range: 251.68",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 251.6847
+        }
+      }
+    },
+    {
+      "id": "GEN_050",
+      "filename": "general_doc_050.png",
+      "pipeline": "general",
+      "category": "sanity_failure",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 48.14,
+      "final_reason": "Brightness out of range: 251.63",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 251.6283765625
+        }
+      }
+    },
+    {
+      "id": "ID_001",
+      "filename": "id_passport_001.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 133.72,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.69964975247524
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.5080445544554456
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 103.2647842273437,
+          "anisotropy_ratio": 0.9991219831326857
+        }
+      }
+    },
+    {
+      "id": "ID_002",
+      "filename": "id_passport_002.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 140.86,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.54395297029703
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4705445544554455
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9888641739136935
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_003",
+      "filename": "id_passport_003.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 133.35,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.6836113861386
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4714108910891089
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9680673175886015
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_004",
+      "filename": "id_passport_004.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 127.96,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.64489665841583
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4682549504950495
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9702150850033556
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_005",
+      "filename": "id_passport_005.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 127.61,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.62834034653466
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4771658415841584
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.976261988634581
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_006",
+      "filename": "id_passport_006.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 121.1,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.67397462871287
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4678217821782178
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 100.01058889548106,
+          "anisotropy_ratio": 0.9798672619517101
+        }
+      }
+    },
+    {
+      "id": "ID_007",
+      "filename": "id_passport_007.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 137.64,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.64336448019802
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4684405940594059
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9900655591979504
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_008",
+      "filename": "id_passport_008.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 138.66,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.5881021039604
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4757425742574257
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9863457674828213
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_009",
+      "filename": "id_passport_009.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 114.16,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.67329579207922
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.5080445544554456
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 103.2647842273437,
+          "anisotropy_ratio": 0.9989946625527966
+        }
+      }
+    },
+    {
+      "id": "ID_010",
+      "filename": "id_passport_010.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 149.56,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.58123824257424
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4705445544554455
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9950120922489033
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_011",
+      "filename": "id_passport_011.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 136.9,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.68823824257424
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4714108910891089
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9772334817954664
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_012",
+      "filename": "id_passport_012.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 133.14,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.57301794554456
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4682549504950495
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9713848905216165
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_013",
+      "filename": "id_passport_013.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 119.35,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.6865785891089
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4771658415841584
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9563332067467877
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_014",
+      "filename": "id_passport_014.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 109.11,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.66402413366336
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4678217821782178
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 100.01058889548106,
+          "anisotropy_ratio": 0.9687645393850438
+        }
+      }
+    },
+    {
+      "id": "ID_015",
+      "filename": "id_passport_015.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 136.24,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.67407116336634
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4684405940594059
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9870303738221532
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_016",
+      "filename": "id_passport_016.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 121.53,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.67366831683168
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4757425742574257
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9742320691081435
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_017",
+      "filename": "id_passport_017.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "PASS",
+      "is_correct": true,
+      "latency_ms": 121.64,
+      "final_reason": "Sharpness within acceptable range",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.68954331683167
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.5080445544554456
+        },
+        "sharpness": {
+          "status": "pass",
+          "score": 103.2647842273437,
+          "anisotropy_ratio": 0.9978878183086808
+        }
+      }
+    },
+    {
+      "id": "ID_018",
+      "filename": "id_passport_018.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 125.37,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.6236813118812
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4705445544554455
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.99451764017195
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_019",
+      "filename": "id_passport_019.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 133.2,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.66188428217822
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4714108910891089
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.9754969034083788
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_020",
+      "filename": "id_passport_020.png",
+      "pipeline": "id_passport",
+      "category": "sharp",
+      "expected_status": "PASS",
+      "predicted_status": "BORDERLINE",
+      "is_correct": false,
+      "latency_ms": 117.04,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.58028774752475
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.4682549504950495
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 99.25309465320467,
+          "anisotropy_ratio": 0.978375837337408
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_021",
+      "filename": "id_passport_021.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 123.82,
+      "final_reason": "Directional blur detected: ratio 0.27",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.66551423267327
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 86.48311042565612,
+          "anisotropy_ratio": 0.26570526804821165
+        }
+      }
+    },
+    {
+      "id": "ID_022",
+      "filename": "id_passport_022.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 125.07,
+      "final_reason": "Directional blur detected: ratio 0.30",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.5308353960396
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 69.79231263366214,
+          "anisotropy_ratio": 0.3026623954337478
+        }
+      }
+    },
+    {
+      "id": "ID_023",
+      "filename": "id_passport_023.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 114.28,
+      "final_reason": "Directional blur detected: ratio 0.27",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.70642821782178
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 84.73408951344304,
+          "anisotropy_ratio": 0.26607404994718475
+        }
+      }
+    },
+    {
+      "id": "ID_024",
+      "filename": "id_passport_024.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 106.44,
+      "final_reason": "Directional blur detected: ratio 0.30",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.60255445544556
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 69.91399588864651,
+          "anisotropy_ratio": 0.30215927036929036
+        }
+      }
+    },
+    {
+      "id": "ID_025",
+      "filename": "id_passport_025.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 115.68,
+      "final_reason": "Directional blur detected: ratio 0.27",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.6946683168317
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 86.95303044384828,
+          "anisotropy_ratio": 0.268836276518961
+        }
+      }
+    },
+    {
+      "id": "ID_026",
+      "filename": "id_passport_026.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 100.9,
+      "final_reason": "Directional blur detected: ratio 0.30",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.64789913366337
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 69.85935183611379,
+          "anisotropy_ratio": 0.3024850187064856
+        }
+      }
+    },
+    {
+      "id": "ID_027",
+      "filename": "id_passport_027.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 106.21,
+      "final_reason": "Directional blur detected: ratio 0.27",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.65250061881187
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 85.14520848874415,
+          "anisotropy_ratio": 0.2665498946202878
+        }
+      }
+    },
+    {
+      "id": "ID_028",
+      "filename": "id_passport_028.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 114.91,
+      "final_reason": "Directional blur detected: ratio 0.30",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.5916082920792
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 70.15980777715845,
+          "anisotropy_ratio": 0.3021976591247207
+        }
+      }
+    },
+    {
+      "id": "ID_029",
+      "filename": "id_passport_029.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 107.07,
+      "final_reason": "Directional blur detected: ratio 0.27",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.63924814356434
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 86.48311042565612,
+          "anisotropy_ratio": 0.26635927031653495
+        }
+      }
+    },
+    {
+      "id": "ID_030",
+      "filename": "id_passport_030.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 107.55,
+      "final_reason": "Directional blur detected: ratio 0.30",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.54801732673266
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 70.30220460722984,
+          "anisotropy_ratio": 0.30102195456127645
+        }
+      }
+    },
+    {
+      "id": "ID_031",
+      "filename": "id_passport_031.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 119.68,
+      "final_reason": "Directional blur detected: ratio 0.27",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.6908224009901
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 84.73408951344304,
+          "anisotropy_ratio": 0.26630177437858044
+        }
+      }
+    },
+    {
+      "id": "ID_032",
+      "filename": "id_passport_032.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 107.03,
+      "final_reason": "Directional blur detected: ratio 0.30",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.51066955445543
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 69.77532039436959,
+          "anisotropy_ratio": 0.30272666881969823
+        }
+      }
+    },
+    {
+      "id": "ID_033",
+      "filename": "id_passport_033.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 121.2,
+      "final_reason": "Directional blur detected: ratio 0.27",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.73267264851486
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 86.95303044384828,
+          "anisotropy_ratio": 0.26902641783321346
+        }
+      }
+    },
+    {
+      "id": "ID_034",
+      "filename": "id_passport_034.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 102.94,
+      "final_reason": "Directional blur detected: ratio 0.30",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.61759777227724
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 69.89732381470732,
+          "anisotropy_ratio": 0.3015830603902212
+        }
+      }
+    },
+    {
+      "id": "ID_035",
+      "filename": "id_passport_035.png",
+      "pipeline": "id_passport",
+      "category": "blurry",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 127.87,
+      "final_reason": "Directional blur detected: ratio 0.27",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.662838490099
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.0
+        },
+        "sharpness": {
+          "status": "reject",
+          "score": 85.14520848874415,
+          "anisotropy_ratio": 0.26547106776156154
+        }
+      }
+    },
+    {
+      "id": "ID_036",
+      "filename": "id_passport_036.png",
+      "pipeline": "id_passport",
+      "category": "glare",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 58.37,
+      "final_reason": "Excessive glare detected: 9.20%",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.7882332920792
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "fail",
+          "glare_area_pct": 9.202475247524752
+        }
+      }
+    },
+    {
+      "id": "ID_037",
+      "filename": "id_passport_037.png",
+      "pipeline": "id_passport",
+      "category": "glare",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 54.61,
+      "final_reason": "Excessive glare detected: 9.20%",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.73119616336635
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "fail",
+          "glare_area_pct": 9.202475247524752
+        }
+      }
+    },
+    {
+      "id": "ID_038",
+      "filename": "id_passport_038.png",
+      "pipeline": "id_passport",
+      "category": "glare",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 55.42,
+      "final_reason": "Excessive glare detected: 9.20%",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.72199133663366
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "fail",
+          "glare_area_pct": 9.202475247524752
+        }
+      }
+    },
+    {
+      "id": "ID_039",
+      "filename": "id_passport_039.png",
+      "pipeline": "id_passport",
+      "category": "glare",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 56.48,
+      "final_reason": "Excessive glare detected: 9.20%",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.76044801980197
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "fail",
+          "glare_area_pct": 9.202475247524752
+        }
+      }
+    },
+    {
+      "id": "ID_040",
+      "filename": "id_passport_040.png",
+      "pipeline": "id_passport",
+      "category": "glare",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 94.4,
+      "final_reason": "Excessive glare detected: 9.20%",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.65996782178217
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "fail",
+          "glare_area_pct": 9.202475247524752
+        }
+      }
+    },
+    {
+      "id": "ID_041",
+      "filename": "id_passport_041.png",
+      "pipeline": "id_passport",
+      "category": "glare",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 57.56,
+      "final_reason": "Excessive glare detected: 9.20%",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.81359405940594
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "fail",
+          "glare_area_pct": 9.202475247524752
+        }
+      }
+    },
+    {
+      "id": "ID_042",
+      "filename": "id_passport_042.png",
+      "pipeline": "id_passport",
+      "category": "glare",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 80.9,
+      "final_reason": "Excessive glare detected: 9.20%",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.6581646039604
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "fail",
+          "glare_area_pct": 9.202475247524752
+        }
+      }
+    },
+    {
+      "id": "ID_043",
+      "filename": "id_passport_043.png",
+      "pipeline": "id_passport",
+      "category": "glare",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 63.77,
+      "final_reason": "Excessive glare detected: 9.20%",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.79750061881188
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "fail",
+          "glare_area_pct": 9.202475247524752
+        }
+      }
+    },
+    {
+      "id": "ID_044",
+      "filename": "id_passport_044.png",
+      "pipeline": "id_passport",
+      "category": "glare",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 61.39,
+      "final_reason": "Excessive glare detected: 9.20%",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.75888242574257
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "fail",
+          "glare_area_pct": 9.202475247524752
+        }
+      }
+    },
+    {
+      "id": "ID_045",
+      "filename": "id_passport_045.png",
+      "pipeline": "id_passport",
+      "category": "glare",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 85.46,
+      "final_reason": "Excessive glare detected: 9.20%",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 202.74234405940595
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "fail",
+          "glare_area_pct": 9.202475247524752
+        }
+      }
+    },
+    {
+      "id": "ID_046",
+      "filename": "id_passport_046.png",
+      "pipeline": "id_passport",
+      "category": "borderline",
+      "expected_status": "BORDERLINE",
+      "predicted_status": "BORDERLINE",
+      "is_correct": true,
+      "latency_ms": 124.02,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.6870761138614
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.18075495049504953
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 98.314392061811,
+          "anisotropy_ratio": 0.8998792788922861
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_047",
+      "filename": "id_passport_047.png",
+      "pipeline": "id_passport",
+      "category": "borderline",
+      "expected_status": "BORDERLINE",
+      "predicted_status": "BORDERLINE",
+      "is_correct": true,
+      "latency_ms": 116.17,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.65638242574258
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.17945544554455448
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 95.44329619856381,
+          "anisotropy_ratio": 0.9081494352503633
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_048",
+      "filename": "id_passport_048.png",
+      "pipeline": "id_passport",
+      "category": "borderline",
+      "expected_status": "BORDERLINE",
+      "predicted_status": "BORDERLINE",
+      "is_correct": true,
+      "latency_ms": 115.3,
+      "final_reason": "Sharpness borderline (OCR engine unavailable for tiebreaker).",
+      "stages": {
+        "sanity": {
+          "status": "pass",
+          "resolution_px": 1600,
+          "brightness": 199.6011813118812
+        },
+        "boundary_detection": {
+          "status": "pass",
+          "confidence": 0.0,
+          "fallback_used": true
+        },
+        "glare": {
+          "status": "pass",
+          "glare_area_pct": 0.18236386138613864
+        },
+        "sharpness": {
+          "status": "borderline",
+          "score": 95.86583686171682,
+          "anisotropy_ratio": 0.9080066420287366
+        },
+        "ocr": {
+          "status": "unavailable",
+          "reason": "Tesseract OCR binary not found on host",
+          "avg_word_confidence": 0.0,
+          "fields_validated": []
+        }
+      }
+    },
+    {
+      "id": "ID_049",
+      "filename": "id_passport_049.png",
+      "pipeline": "id_passport",
+      "category": "sanity_failure",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 14.89,
+      "final_reason": "Resolution too low: 800px",
+      "stages": {
+        "sanity": {
+          "status": "fail",
+          "resolution_px": 800
+        }
+      }
+    },
+    {
+      "id": "ID_050",
+      "filename": "id_passport_050.png",
+      "pipeline": "id_passport",
+      "category": "sanity_failure",
+      "expected_status": "REJECT",
+      "predicted_status": "REJECT",
+      "is_correct": true,
+      "latency_ms": 15.58,
+      "final_reason": "Resolution too low: 800px",
+      "stages": {
+        "sanity": {
+          "status": "fail",
+          "resolution_px": 800
+        }
+      }
+    }
+  ]
+}

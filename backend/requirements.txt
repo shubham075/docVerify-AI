@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+python-multipart
+opencv-python-headless
+numpy
+pytesseract
+pymupdf
+python-magic
+python-magic-bin
+# Multi-Engine OCR Providers (docTR & PaddleOCR)
+python-doctr
+paddleocr
+rapidocr-onnxruntime
+torch
+torchvision
