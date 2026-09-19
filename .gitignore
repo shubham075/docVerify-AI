@@ -1,0 +1,106 @@
+# =============================================================================
+# DocVerify AI — Root .gitignore
+# =============================================================================
+
+# --- Python & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# --- Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# --- Python Testing & Packaging ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Node.js & Frontend ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+dist/
+.vite/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Environment Variables & Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+!*.env.example
+
+# --- Temporary Uploads & Microservice Caches ---
+temp_uploads/
+backend/temp_uploads/
+custom_config.json
+backend/custom_config.json
+*.log
+.paddlex/
+.cache/
+
+# --- Playwright & Test Artifacts ---
+.playwright-mcp/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# --- IDEs & System Files ---
+.vscode/
+.idea/
+.claude/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*~
+
+# --- Local Verification Screenshots ---
+*.png.tmp
+ocr_multi_engine_demo.png
+ocr_doctr_ready_demo.png
+config_disabled_inputs_demo.png
+config_reset_restored_demo.png
+top_banner_clean.png

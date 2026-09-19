@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  docverify-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: docverify-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist custom user configuration across container restarts
+      - ./backend/custom_config.json:/app/custom_config.json
+    environment:
+      - ENVIRONMENT=production
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+  docverify-frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: docverify-ui
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    depends_on:
+      - docverify-backend

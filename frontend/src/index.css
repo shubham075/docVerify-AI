@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #2A2312;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Space Grotesk', sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Brutalist scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #EAE3D2;
+  border-left: 2px solid #2A2312;
+}
+::-webkit-scrollbar-thumb {
+  background: #3C1A47;
+  border: 2px solid #2A2312;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFBE0B;
+}
+
+/* Brutalist Dot Pattern Canvas */
+.brutal-canvas {
+  background-color: #F5F0E6;
+  background-image: radial-gradient(rgba(42, 35, 18, 0.16) 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+}
+
+/* Brutal Cards & Containers */
+.brutal-card {
+  background-color: #FFFFFF;
+  border: 3px solid #2A2312;
+  box-shadow: 5px 5px 0px #2A2312;
+}
+
+.brutal-card-plum {
+  background-color: #3C1A47;
+  border: 3px solid #2A2312;
+  box-shadow: 5px 5px 0px #2A2312;
+  color: #FFFFFF;
+}
+
+.brutal-card-amber {
+  background-color: #FFBE0B;
+  border: 3px solid #2A2312;
+  box-shadow: 5px 5px 0px #2A2312;
+  color: #2A2312;
+}
+
+.brutal-card-lime {
+  background-color: #B6FF00;
+  border: 3px solid #2A2312;
+  box-shadow: 5px 5px 0px #2A2312;
+  color: #2A2312;
+}
+
+/* Tactile Buttons */
+.brutal-btn {
+  border: 3px solid #2A2312;
+  box-shadow: 4px 4px 0px #2A2312;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+  user-select: none;
+}
+.brutal-btn:hover:not(:disabled) {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #2A2312;
+}
+.brutal-btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #2A2312;
+}
+
+.brutal-btn-sm {
+  border: 2px solid #2A2312;
+  box-shadow: 2.5px 2.5px 0px #2A2312;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.brutal-btn-sm:hover:not(:disabled) {
+  transform: translate(-1px, -1px);
+  box-shadow: 3.5px 3.5px 0px #2A2312;
+}
+.brutal-btn-sm:active:not(:disabled) {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #2A2312;
+}
+
+/* Brutal Badges & Tags */
+.brutal-badge {
+  border: 2px solid #2A2312;
+  box-shadow: 2px 2px 0px #2A2312;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Brutal Input Fields */
+.brutal-input {
+  background-color: #FFFFFF;
+  border: 2.5px solid #2A2312;
+  box-shadow: 2.5px 2.5px 0px #2A2312;
+  color: #2A2312;
+  font-weight: 600;
+  outline: none;
+  transition: all 0.1s ease;
+}
+.brutal-input:focus {
+  background-color: #FFFDF8;
+  border-color: #3C1A47;
+  box-shadow: 4px 4px 0px #3C1A47;
+}
